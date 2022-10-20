@@ -1,0 +1,24 @@
+.container {
+  padding: 30px;
+  margin: 0 auto;
+}
+.errorTitle {
+  background-color: rgb(213, 57, 0);
+}
+.goBackLink {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 100px;
+  padding: 10px;
+  color: rgb(84, 117, 201);
+  border-radius: 7px;
+  background-color: #fff;
+  border: 1px solid rgb(84, 117, 201);
+  font-weight: 500;
+}
+.goBackLink:hover,
+.goBackLink:focus {
+  box-shadow: 0px 0px 5px -5px rgb(0, 0, 0);
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 30px;
+  margin: 0 auto;
+}
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.castItem {
+  width: calc((100% - 150px) / 6);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 2px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.castPicture {
+  display: block;
+  height: auto;
+  width: 100%;
+}

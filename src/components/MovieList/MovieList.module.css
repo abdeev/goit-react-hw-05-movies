@@ -1,0 +1,23 @@
+.movieList {
+  list-style: none;
+  padding: 10px;
+}
+
+.movieListItem {
+  font-size: 20px;
+}
+.movieListItem:not(:last-child) {
+  margin-bottom: 5px;
+}
+.movieListItemLink {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 600;
+  color: rgb(0, 0, 180);
+  transition: all, ease-in-out, 300ms;
+}
+.movieListItemLink:hover,
+.movieListItemLink:focus {
+  color: rgb(147, 76, 0);
+  text-shadow: #e0e0e0 1px 1px 0, -1px 4px 4px rgba(199, 199, 199, 0.6);
+}

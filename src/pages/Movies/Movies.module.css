@@ -1,0 +1,29 @@
+.container {
+  padding: 30px;
+  margin: 0 auto;
+}
+.formInput {
+  min-width: 300px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 0, 180);
+  border-radius: 5px;
+}
+.formInput:hover,
+.formInput:focus {
+  box-shadow: 0px 0px 33px -10px rgba(0, 0, 84, 0.64);
+}
+.buttonSubmit {
+  min-width: 150px;
+  margin-left: 20px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 2px solid rgb(0, 0, 180);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 180);
+  color: #fff;
+}
+.buttonSubmit:hover,
+.buttonSubmit:focus {
+  box-shadow: 0px 0px 33px -10px rgba(0, 0, 84, 0.64);
+}
