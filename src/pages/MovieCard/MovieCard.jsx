@@ -1,6 +1,12 @@
 import { searchMovieById } from 'api/ApiRequests';
 import { useCallback, useRef, useEffect, useState } from 'react';
-import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
+import {
+  Link,
+  NavLink,
+  Outlet,
+  useLocation,
+  useParams,
+} from 'react-router-dom';
 import css from './MovieCard.module.css';
 
 const MovieCard = () => {
@@ -78,13 +84,13 @@ const MovieCard = () => {
         </div>
       </section>
       <section className={css.section}>
-        <div className={css.container}>
-          <Link className={css.cardLink} to={'cast'}>
+        <div className={css.info_container}>
+          <NavLink className={css.cardLink} to={'cast'}>
             Cast
-          </Link>
-          <Link className={css.cardLink} to={'reviews'}>
+          </NavLink>
+          <NavLink className={css.cardLink} to={'reviews'}>
             Reviews
-          </Link>
+          </NavLink>
         </div>
       </section>
       <section className={css.section}>

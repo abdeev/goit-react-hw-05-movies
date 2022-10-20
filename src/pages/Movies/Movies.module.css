@@ -6,7 +6,7 @@
   min-width: 300px;
   font-size: 16px;
   padding: 5px 10px;
-  border: 2px solid rgb(0, 0, 180);
+  border: 2px solid rgb(50, 50, 170);
   border-radius: 5px;
 }
 .formInput:hover,
@@ -18,9 +18,9 @@
   margin-left: 20px;
   font-size: 16px;
   padding: 5px 10px;
-  border: 2px solid rgb(0, 0, 180);
+  border: 2px solid rgb(50, 50, 170);
   border-radius: 5px;
-  background-color: rgb(0, 0, 180);
+  background-color: rgb(50, 50, 170);
   color: #fff;
 }
 .buttonSubmit:hover,

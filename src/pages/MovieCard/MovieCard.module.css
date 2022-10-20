@@ -1,21 +1,23 @@
 .section {
-  border-bottom: 1px solid rgb(0, 0, 180);
+  border-bottom: 1px solid rgb(50, 50, 170);
 }
-.container {
+.info_container {
   padding: 30px;
   margin: 0 auto;
+  background-color: rgb(50, 50, 170);
 }
 .goBackLink {
   display: block;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 30px;
   max-width: 100px;
+  margin-left: 30px;
+  margin-top: 10px;
   padding: 5px;
-  color: rgb(0, 0, 180);
+  color: rgb(50, 50, 170);
   border-radius: 5px;
   background-color: rgb(210, 210, 210);
-  border: 1px solid rgb(0, 0, 180);
+  border: 1px solid rgb(50, 50, 170);
   font-weight: 500;
   transition: all ease-in-out 250ms;
 }
@@ -32,10 +34,11 @@
 .cardWrapper {
   display: flex;
   gap: 30px;
+  padding: 10px 30px;
 }
 .cardLink {
   text-decoration: none;
-  color: inherit;
+  color: rgb(210, 210, 210);
   padding: 5px 10px;
 }
 .cardLink:not(:last-child) {
@@ -44,5 +47,5 @@
 
 .cardLink:hover,
 .cardLink:focus {
-  color: rgb(0, 0, 180);
+  color: rgb(255, 255, 255);
 }
